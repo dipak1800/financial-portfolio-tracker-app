@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import "./App.css";
-import Navbar from "./components/Navbar";
-import Table from "./components/Table";
-import Stocks from "./components/Stocks";
+import Navbar from "../src/component/Navbar";
+import Table from "../src/component/Table";
+import Stocks from "../src/component/Stocks";
 
 class App extends Component {
   render() {

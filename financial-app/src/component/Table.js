@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./Table.css";
 import axios from "axios";
-import AlphaCall from "./AlphaCall";
+import AlphaCall from "../../src/component/APICALL";
 
 class Table extends Component {
   state = {

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./Stocks.css";
 import axios from "axios";
 
-class Stocks extends Component {
+export default class Stocks extends Component {
   state = {
     data: [],
     show: false,
@@ -213,5 +213,3 @@ class Stocks extends Component {
     );
   }
 }
-
-export default Stocks;
