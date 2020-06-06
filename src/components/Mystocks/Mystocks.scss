@@ -1,0 +1,33 @@
+.main {
+  width: 94%;
+  margin: auto;
+}
+
+.MyStocks {
+  height: auto;
+}
+.Title {
+  background-image: linear-gradient(to top, #0250c5 0%, #d43f8d 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 20px;
+}
+.MyStocksTable {
+  width: 100%;
+}
+th {
+  background-color: #1c7acc;
+  color: whitesmoke;
+  padding: 8px;
+  border: honeydew 1px solid;
+}
+td {
+  border: 1px solid gainsboro;
+  padding: 4px;
+  color: black;
+  border-collapse: collapse;
+  padding: 6px;
+}
+tr:nth-child(odd) {
+  background-color:linen
+}

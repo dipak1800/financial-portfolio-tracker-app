@@ -1,0 +1,37 @@
+.AddStocks {
+  width: 100vw;
+  height: 40vh;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+.AddStocksTitle {
+  width: 400px;
+  display: flex;
+}
+
+.StockButton {
+  width: 70px;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-right: 20px;
+  &:focus {
+    outline: none;
+  }
+}
+.sub-title {
+  margin-top: 5px;
+  font-weight: 600;
+}
+.title {
+  background-image: linear-gradient(to top, #0250c5 0%, #d43f8d 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+ padding: 2px;
+ margin-bottom: 25px;
+}

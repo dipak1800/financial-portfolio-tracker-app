@@ -1,0 +1,27 @@
+#navbar {
+  height: 50px;
+  color: whitesmoke;
+  font-size: 10px !important;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1c7acc; 
+  position: sticky;
+  top: 0;
+}
+#icon {
+  font-size: 28px;
+  color: orange;
+  transition: all 1s linear;
+  animation: icon-rotator 3s linear infinite;
+}
+
+@keyframes icon-rotator {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
