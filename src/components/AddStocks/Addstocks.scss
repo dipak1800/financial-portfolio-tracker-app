@@ -71,7 +71,7 @@
 @media screen and(max-width:786px) {
   .AddStocks {
     width: 100vw;
-   justify-content:center;
+    justify-content: center;
   }
   .AddStocksTitle {
     width: auto;
@@ -79,20 +79,18 @@
     display: flex;
   }
   .StockButton {
-  width: 60px;
-  height: 35px;
-font-size: 3vw;
-}
-.title{
-  font-size: 5vw;
- 
-}
-.sub-title {
- font-size: 2vh;
- overflow: hidden;
-}
-.limit{
-  font-size: 4.1vw;
-}
-
+    width: 60px;
+    height: 35px;
+    font-size: 3vw;
+  }
+  .title {
+    font-size: 5vw;
+  }
+  .sub-title {
+    font-size: 2vh;
+    overflow: hidden;
+  }
+  .limit {
+    font-size: 4.1vw;
+  }
 }
