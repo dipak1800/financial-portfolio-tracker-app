@@ -4,7 +4,7 @@ import "./Navbar.scss";
 function navbar() {
   return (
     <nav id="navbar">
-      <h2>
+      <h2 className='heading'>
         Finance Portf
         <i id="icon" className="fas fa-search-dollar"></i>
         lio Tracker

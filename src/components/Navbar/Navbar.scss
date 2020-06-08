@@ -6,10 +6,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #1c7acc; 
+  background-color: #1c7acc;
   position: sticky;
   top: 0;
 }
+@media screen and (max-width: 786px) {
+  #navbar {
+    width: 100vw;
+    height: auto;
+  }
+}
+
 #icon {
   font-size: 28px;
   color: orange;

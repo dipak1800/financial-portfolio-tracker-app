@@ -29,5 +29,37 @@ td {
   padding: 6px;
 }
 tr:nth-child(odd) {
-  background-color:linen
+  background-color: linen;
+}
+.StopTrackingBtn {
+  text-align: center;
+  background-color: rgba(255, 0, 0, 0.8);
+  color: white;
+  border: 2px solid red;
+  border-radius: 2px;
+  &:hover {
+    background-color: rgba(255, 0, 0, 1);
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}
+.icon {
+  font-size: 30px;
+}
+@media screen and(max-width:786px) {
+  .Title {
+    font-size: 5vw;
+    text-align: center;
+  }
+  th {
+    font-size: 0.8rem;
+  }
+  td {
+    font-size: 0.7rem;
+  }
+  .nope{
+    font-size: 5vw;
+  }
 }
