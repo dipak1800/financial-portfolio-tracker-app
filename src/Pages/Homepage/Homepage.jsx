@@ -15,7 +15,7 @@ export default class Homepage extends Component {
     stocksymbol: "",
     isSelected: false,
     buttonId: "",
-    showModal: true,
+    showModal: false,
   };
 
   getCurrentPrice = (
