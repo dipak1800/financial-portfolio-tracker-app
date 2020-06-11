@@ -7,6 +7,7 @@ export default class Mystocks extends Component {
     mystocksdata: [],
     isSelected: false,
   };
+ 
   getStockData = () => {
     Axios.get(`https://stockspost-9c52a.firebaseio.com/.json`)
       .then((response) => {
@@ -69,6 +70,7 @@ export default class Mystocks extends Component {
   };
 
   render() {
+    console.log('render');
     const isSelected = this.props.isSelected;
     let showStocks;
     if (this.state.mystocksdata !== null) {
